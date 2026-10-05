@@ -86,8 +86,8 @@ Requires Python 3.11 or newer.
 **Any system, from a terminal:**
 
 ```bash
-git clone https://github.com/<your-username>/marginguard.git
-cd marginguard
+git clone https://github.com/chrisjm5/Marginguard.git
+cd Marginguard
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env        # Windows: copy .env.example .env   -- then put your API key in .env
