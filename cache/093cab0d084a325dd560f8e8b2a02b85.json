@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "finding_id": "F1",
+      "title": "Request new quote for cooking oil",
+      "advice": "Ask a new supplier for a quote on cooking oil."
+    },
+    {
+      "finding_id": "F3",
+      "title": "Request new quote for plain flour",
+      "advice": "Ask a new supplier for a quote on plain flour."
+    },
+    {
+      "finding_id": "F5",
+      "title": "Request new quote for jasmine rice",
+      "advice": "Ask a new supplier for a quote on jasmine rice."
+    },
+    {
+      "finding_id": "F2",
+      "title": "Request new quote for unsalted butter",
+      "advice": "Ask a new supplier for a quote on unsalted butter."
+    },
+    {
+      "finding_id": "F4",
+      "title": "Request new quote for fresh milk",
+      "advice": "Ask a new supplier for a quote on fresh milk."
+    },
+    {
+      "finding_id": "F6",
+      "title": "Request new quote for brown onions",
+      "advice": "Ask a new supplier for a quote on brown onions."
+    },
+    {
+      "finding_id": "F7",
+      "title": "Switch eggs to Northgate Dairy & Meats",
+      "advice": "Change the supplier for eggs to Northgate Dairy & Meats."
+    }
+  ],
+  "email": {
+    "supplier": "Harbourline Dry Goods Pte Ltd",
+    "subject": "Request for Price Review",
+    "body": "Dear Harbourline Dry Goods Pte Ltd,\n\nI noticed significant price increases for several items we purchase from you, including cooking oil, plain flour, and jasmine rice. These increases have added substantial costs to our monthly expenses. Could you please review these prices and provide a more competitive quote?\n\nThank you for your understanding and cooperation.\n\nBest regards,\n[Your name], [Your business]"
+  }
+}

@@ -1,0 +1,7 @@
+streamlit>=1.45
+altair>=5.5
+pandas>=2.2
+pdfplumber>=0.11
+pydantic>=2.10
+requests>=2.31
+reportlab>=4.0   # only needed to regenerate the sample invoices

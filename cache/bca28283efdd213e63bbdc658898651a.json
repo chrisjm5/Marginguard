@@ -1,0 +1,45 @@
+{
+  "headline": "Address significant cost increases to maintain profitability.",
+  "actions": [
+    {
+      "finding_id": "F1",
+      "title": "Cooking Oil Price Increase",
+      "advice": "Ask HARBOURLINE DRY GOODS PTE LTD to revert to the old price of $3.70/L."
+    },
+    {
+      "finding_id": "F3",
+      "title": "Plain Flour Hidden Increase",
+      "advice": "Request a larger pack size from HARBOURLINE DRY GOODS PTE LTD to reduce cost per kg."
+    },
+    {
+      "finding_id": "F2",
+      "title": "Butter Price Increase",
+      "advice": "Consider switching to Northgate Dairy & Meats if they offer a better deal."
+    },
+    {
+      "finding_id": "F5",
+      "title": "Jasmine Rice Price Increase",
+      "advice": "Negotiate with HARBOURLINE DRY GOODS PTE LTD for a bulk discount."
+    },
+    {
+      "finding_id": "F4",
+      "title": "Milk Price Increase",
+      "advice": "Adjust menu prices slightly to cover the increased cost of fresh milk."
+    },
+    {
+      "finding_id": "F6",
+      "title": "Onions Price Increase",
+      "advice": "Request a quote from GreenLeaf Produce Co. for a bulk order."
+    },
+    {
+      "finding_id": "F7",
+      "title": "Cheaper Eggs",
+      "advice": "Switch to Northgate Dairy & Meats for eggs to save $250 annually."
+    }
+  ],
+  "email": {
+    "supplier": "HARBOURLINE DRY GOODS PTE LTD",
+    "subject": "Request for Price Reversion and Bulk Discounts",
+    "body": "Dear HARBOURLINE DRY GOODS PTE LTD,\n\nI have noticed recent price increases for cooking oil and plain flour, which have significantly impacted our budget. Could we discuss reverting to the previous prices or offering bulk discounts? Your support would greatly help us manage our costs.\n\nThank you for your understanding.\n\nBest regards,\n[Your name], [Your business]"
+  }
+}
