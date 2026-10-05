@@ -9,7 +9,7 @@ MarginGuard reads a café or restaurant's supplier invoices, tracks the real pri
 | | |
 |---|---|
 | 🎥 Demo video | _add YouTube link_ |
-| 🌐 Live app | _add Streamlit link_ |
+| 🌐 Live app | [marginguard.streamlit.app](https://marginguard.streamlit.app) — click **Analyze invoices** to try it with the sample invoices |
 
 <!-- TODO: save a dashboard screenshot as docs/screenshot-dashboard.png, then delete this line and the two arrows around the next line -->
 <!-- ![Dashboard screenshot](docs/screenshot-dashboard.png) -->

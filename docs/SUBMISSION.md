@@ -11,8 +11,8 @@ AI + Business
 
 ## Links
 - Demo video: _YouTube link (Public, 2–4 min)_
-- GitHub: _https://github.com/.../marginguard_
-- Live app: _Streamlit link_
+- GitHub: https://github.com/chrisjm5/Marginguard
+- Live app: https://marginguard.streamlit.app
 
 ---
 

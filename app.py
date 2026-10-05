@@ -102,7 +102,8 @@ advice = {a["finding_id"]: a for a in plan.get("actions", [])}
 
 # --- Headline + KPIs ---------------------------------------------------------
 if plan.get("headline"):
-    st.success(f"**{plan['headline']}**")
+    # Escape "$" so Streamlit doesn't read "$2,104 ... $786" as a maths formula
+    st.success("**" + plan["headline"].replace("$", "\\$") + "**")
 
 k1, k2, k3, k4 = st.columns(4)
 k1.metric("Supplier spend", f"${s['monthly_spend']:,.0f}/mo",

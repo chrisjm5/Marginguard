@@ -10,7 +10,7 @@ import json
 from analyze import fmt_unit_price
 from llm import LLMError, chat_json
 
-PROMPT_VERSION = "recommend-v2"
+PROMPT_VERSION = "recommend-v3"
 
 SYSTEM = """You advise the owner of a small food business (café/restaurant) on supplier costs.
 You get findings that were already calculated by software. Do NOT do any maths and do NOT
@@ -21,9 +21,16 @@ pack size, changing order size, or adjusting a menu price.
 
 Rules about suppliers:
 - Each finding lists "other_suppliers_that_sell_this". Only suggest moving an item to a supplier
-  named in that list. If the list is empty, suggest getting a quote from a NEW supplier instead.
-- Never suggest switching to the same supplier the item already comes from.
+  named in that list. Never suggest switching to the supplier the item already comes from.
 - In the email you may quote the old and new prices exactly as given in the findings.
+
+Make the advice fit each finding. Do NOT give the same advice for every item. Choose from:
+- Biggest increases: ask the current supplier to return to the old price, AND get one competing quote.
+- Hidden increase (smaller pack): point out the pack shrank, ask for the old pack size or a lower price.
+- Small increases on everyday items: consider a small menu price change, or a larger order for a discount.
+- Cheaper at another supplier: move the item to the named cheaper supplier, or ask the current one to match.
+- Staples bought in bulk: consider a different pack size or ordering less often.
+Each title should name the action (e.g. "Ask Harbourline to restore oil price"), not just the item.
 
 Reply with ONE JSON object only:
 {
